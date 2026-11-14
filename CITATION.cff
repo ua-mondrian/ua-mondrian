@@ -3,6 +3,14 @@ message: "Если вы используете эти материалы, сош
 title: "UA-Mondrian: code, data, protocol and run logs"
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.24224952
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24224952
+    description: "Архивная копия версии 1.0.0 (Zenodo)"
+  - type: doi
+    value: 10.5281/zenodo.24224951
+    description: "Все версии (concept DOI, Zenodo)"
 date-released: 2026-11-14
 license: MIT
 repository-code: "https://github.com/ua-mondrian/ua-mondrian"
