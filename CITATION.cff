@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Если вы используете эти материалы, сошлитесь на статью и на архивную копию репозитория."
+title: "UA-Mondrian: code, data, protocol and run logs"
+type: software
+version: 1.0.0
+date-released: 2026-11-14
+license: MIT
+repository-code: "https://github.com/ua-mondrian/ua-mondrian"
+authors:
+  - family-names: Gainutdinov
+    given-names: Roman A.
+    orcid: "https://orcid.org/0009-0004-7662-9750"
+    affiliation: "Ural Federal University named after the first President of Russia B. N. Yeltsin"
+  - family-names: Nesmiyanova
+    given-names: Elena S.
+    affiliation: "Ural Federal University named after the first President of Russia B. N. Yeltsin"
+keywords: [k-anonymity, l-diversity, Mondrian, anonymization, machine learning, re-identification risk]

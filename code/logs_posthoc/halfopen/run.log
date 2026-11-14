@@ -1,0 +1,260 @@
+main Adult r0 f3 k=5: 187s
+main Adult r0 f4 k=5: 188s
+main Adult r1 f1 k=5: 189s
+main Adult r0 f5 k=5: 189s
+main Adult r0 f2 k=5: 190s
+main Adult r0 f1 k=5: 288s
+main Adult r0 f3 k=10: 344s
+main Adult r0 f4 k=10: 346s
+main Adult r1 f1 k=10: 348s
+main Adult r0 f5 k=10: 348s
+main Adult r0 f2 k=10: 350s
+main Adult r0 f3 k=25: 487s
+main Adult r0 f4 k=25: 488s
+main Adult r1 f1 k=25: 491s
+main Adult r0 f5 k=25: 492s
+main Adult r0 f2 k=25: 495s
+main Adult r0 f1 k=10: 536s
+main Adult r0 f3 k=50: 628s
+main Adult r0 f4 k=50: 630s
+main Adult r1 f1 k=50: 632s
+main Adult r0 f5 k=50: 632s
+main Adult r0 f2 k=50: 637s
+main Adult r0 f1 k=25: 759s
+main Adult r0 f3 k=100: 776s
+DONE main Adult r0 f3: 2380 rows, 776s
+main Adult r0 f4 k=100: 778s
+DONE main Adult r0 f4: 2380 rows, 778s
+main Adult r0 f5 k=100: 781s
+DONE main Adult r0 f5: 2380 rows, 781s
+main Adult r1 f1 k=100: 781s
+DONE main Adult r1 f1: 2380 rows, 781s
+main Adult r0 f2 k=100: 787s
+DONE main Adult r0 f2: 2380 rows, 787s
+main Bank r0 f1 k=5: 126s
+main Adult r1 f2 k=5: 188s
+main Adult r1 f3 k=5: 187s
+main Adult r1 f4 k=5: 187s
+main Adult r1 f5 k=5: 188s
+main Adult r0 f1 k=50: 985s
+main Bank r0 f1 k=10: 237s
+main Adult r1 f3 k=10: 331s
+main Adult r1 f2 k=10: 334s
+main Adult r1 f4 k=10: 332s
+main Adult r1 f5 k=10: 334s
+main Bank r0 f1 k=25: 349s
+main Adult r0 f1 k=100: 1213s
+DONE main Adult r0 f1: 2380 rows, 1213s
+main Adult r1 f3 k=25: 462s
+main Adult r1 f2 k=25: 465s
+main Adult r1 f4 k=25: 464s
+main Adult r1 f5 k=25: 466s
+main Bank r0 f1 k=50: 464s
+main Bank r0 f2 k=5: 75s
+main Bank r0 f2 k=10: 148s
+main Bank r0 f1 k=100: 579s
+DONE main Bank r0 f1: 2380 rows, 579s
+main Adult r1 f3 k=50: 592s
+main Adult r1 f2 k=50: 596s
+main Adult r1 f4 k=50: 594s
+main Adult r1 f5 k=50: 598s
+main Bank r0 f2 k=25: 221s
+main Bank r0 f3 k=5: 74s
+main Adult r1 f3 k=100: 729s
+DONE main Adult r1 f3: 2380 rows, 729s
+main Bank r0 f2 k=50: 295s
+main Adult r1 f2 k=100: 733s
+DONE main Adult r1 f2: 2380 rows, 733s
+main Adult r1 f4 k=100: 732s
+DONE main Adult r1 f4: 2380 rows, 732s
+main Bank r0 f3 k=10: 148s
+main Adult r1 f5 k=100: 735s
+DONE main Adult r1 f5: 2380 rows, 735s
+main Bank r0 f4 k=5: 74s
+main Bank r0 f2 k=100: 369s
+DONE main Bank r0 f2: 2380 rows, 369s
+main Bank r0 f5 k=5: 73s
+main Bank r1 f1 k=5: 74s
+main Bank r0 f3 k=25: 221s
+main Bank r1 f2 k=5: 75s
+main Bank r0 f4 k=10: 146s
+main Bank r0 f5 k=10: 146s
+main Bank r1 f3 k=5: 74s
+main Bank r1 f1 k=10: 146s
+main Bank r0 f3 k=50: 294s
+main Bank r1 f2 k=10: 148s
+main Bank r0 f4 k=25: 218s
+main Bank r0 f5 k=25: 218s
+main Bank r1 f3 k=10: 146s
+main Bank r1 f1 k=25: 218s
+main Bank r0 f3 k=100: 368s
+DONE main Bank r0 f3: 2380 rows, 368s
+main Bank r1 f2 k=25: 221s
+main Bank r0 f4 k=50: 292s
+main Bank r1 f3 k=25: 218s
+main Bank r0 f5 k=50: 291s
+main Bank r1 f1 k=50: 291s
+main Bank r1 f4 k=5: 74s
+main Bank r1 f2 k=50: 295s
+main Bank r0 f4 k=100: 365s
+DONE main Bank r0 f4: 2380 rows, 365s
+main Bank r1 f3 k=50: 290s
+main Bank r0 f5 k=100: 364s
+DONE main Bank r0 f5: 2380 rows, 364s
+main Bank r1 f1 k=100: 365s
+DONE main Bank r1 f1: 2380 rows, 365s
+main Bank r1 f4 k=10: 146s
+main Bank r1 f2 k=100: 369s
+DONE main Bank r1 f2: 2380 rows, 369s
+alpha Adult r0 f1 k=5: 35s
+alpha Adult r0 f2 k=5: 35s
+alpha Adult r0 f3 k=5: 35s
+alpha Adult r0 f1 k=10: 62s
+alpha Adult r0 f2 k=10: 63s
+main Bank r1 f3 k=100: 365s
+DONE main Bank r1 f3: 2380 rows, 365s
+main Bank r1 f5 k=5: 74s
+alpha Adult r0 f3 k=10: 63s
+main Bank r1 f4 k=25: 219s
+alpha Adult r0 f1 k=25: 83s
+alpha Adult r0 f2 k=25: 83s
+alpha Adult r0 f3 k=25: 84s
+alpha Adult r0 f1 k=50: 102s
+alpha Adult r0 f2 k=50: 102s
+alpha Adult r0 f4 k=5: 35s
+alpha Adult r0 f3 k=50: 103s
+alpha Adult r0 f1 k=100: 120s
+DONE alpha Adult r0 f1: 320 rows, 120s
+alpha Adult r0 f2 k=100: 120s
+DONE alpha Adult r0 f2: 320 rows, 120s
+alpha Adult r0 f3 k=100: 121s
+DONE alpha Adult r0 f3: 320 rows, 121s
+alpha Adult r0 f4 k=10: 63s
+main Bank r1 f5 k=10: 147s
+main Bank r1 f4 k=50: 292s
+alpha Adult r0 f4 k=25: 83s
+alpha Adult r0 f5 k=5: 35s
+alpha Adult r1 f1 k=5: 35s
+alpha Adult r1 f2 k=5: 36s
+alpha Adult r0 f4 k=50: 102s
+alpha Adult r0 f5 k=10: 62s
+alpha Adult r1 f1 k=10: 62s
+alpha Adult r0 f4 k=100: 120s
+DONE alpha Adult r0 f4: 320 rows, 120s
+alpha Adult r1 f2 k=10: 64s
+alpha Adult r0 f5 k=25: 88s
+alpha Adult r1 f1 k=25: 87s
+main Bank r1 f5 k=25: 223s
+alpha Adult r1 f2 k=25: 88s
+alpha Adult r0 f5 k=50: 106s
+alpha Adult r1 f1 k=50: 105s
+main Bank r1 f4 k=100: 371s
+DONE main Bank r1 f4: 2380 rows, 371s
+alpha Adult r1 f3 k=5: 39s
+alpha Adult r1 f2 k=50: 110s
+alpha Adult r0 f5 k=100: 133s
+DONE alpha Adult r0 f5: 320 rows, 134s
+alpha Adult r1 f1 k=100: 134s
+DONE alpha Adult r1 f1: 320 rows, 134s
+alpha Adult r1 f2 k=100: 144s
+DONE alpha Adult r1 f2: 320 rows, 144s
+alpha Adult r1 f3 k=10: 86s
+alpha Adult r1 f4 k=5: 56s
+alpha Bank r0 f1 k=5: 20s
+alpha Bank r0 f2 k=5: 18s
+alpha Adult r1 f3 k=25: 109s
+alpha Bank r0 f1 k=10: 38s
+alpha Adult r1 f5 k=5: 42s
+alpha Bank r0 f2 k=10: 36s
+main Bank r1 f5 k=50: 319s
+alpha Adult r1 f4 k=10: 85s
+alpha Adult r1 f3 k=50: 129s
+alpha Bank r0 f1 k=25: 55s
+alpha Bank r0 f2 k=25: 55s
+alpha Adult r1 f5 k=10: 73s
+alpha Adult r1 f4 k=25: 110s
+alpha Adult r1 f3 k=100: 151s
+DONE alpha Adult r1 f3: 320 rows, 151s
+alpha Bank r0 f1 k=50: 76s
+alpha Bank r0 f2 k=50: 76s
+alpha Adult r1 f4 k=50: 151s
+alpha Adult r1 f5 k=25: 126s
+alpha Bank r0 f1 k=100: 137s
+DONE alpha Bank r0 f1: 320 rows, 142s
+alpha Bank r0 f3 k=5: 67s
+alpha Bank r0 f2 k=100: 152s
+DONE alpha Bank r0 f2: 320 rows, 152s
+alpha Adult r1 f4 k=100: 217s
+DONE alpha Adult r1 f4: 320 rows, 218s
+alpha Bank r0 f3 k=10: 104s
+alpha Adult r1 f5 k=50: 185s
+alpha Bank r0 f4 k=5: 34s
+alpha Bank r0 f5 k=5: 31s
+main Bank r1 f5 k=100: 482s
+DONE main Bank r1 f5: 2380 rows, 483s
+alpha Bank r0 f3 k=25: 135s
+alpha Adult r1 f5 k=100: 218s
+DONE alpha Adult r1 f5: 320 rows, 218s
+alpha Bank r1 f1 k=5: 31s
+alpha Bank r0 f4 k=10: 62s
+alpha Bank r0 f5 k=10: 59s
+alpha Bank r0 f3 k=50: 156s
+alpha Bank r1 f2 k=5: 22s
+alpha Bank r1 f1 k=10: 52s
+alpha Bank r1 f3 k=5: 20s
+alpha Bank r0 f4 k=25: 81s
+alpha Bank r0 f5 k=25: 79s
+alpha Bank r0 f3 k=100: 175s
+DONE alpha Bank r0 f3: 320 rows, 175s
+alpha Bank r1 f2 k=10: 41s
+alpha Bank r1 f1 k=25: 71s
+alpha Bank r1 f3 k=10: 39s
+alpha Bank r0 f4 k=50: 101s
+alpha Bank r0 f5 k=50: 100s
+alpha Bank r1 f2 k=25: 64s
+alpha Bank r1 f1 k=50: 96s
+alpha Bank r1 f4 k=5: 25s
+alpha Bank r1 f3 k=25: 64s
+alpha Bank r0 f4 k=100: 127s
+DONE alpha Bank r0 f4: 320 rows, 127s
+alpha Bank r0 f5 k=100: 126s
+DONE alpha Bank r0 f5: 320 rows, 127s
+alpha Bank r1 f2 k=50: 88s
+alpha Bank r1 f4 k=10: 50s
+alpha Bank r1 f1 k=100: 122s
+DONE alpha Bank r1 f1: 320 rows, 122s
+alpha Bank r1 f3 k=50: 89s
+alpha Bank r1 f5 k=5: 25s
+alpha Bank r1 f2 k=100: 112s
+DONE alpha Bank r1 f2: 320 rows, 112s
+alpha Bank r1 f4 k=25: 73s
+alpha Bank r1 f3 k=100: 111s
+DONE alpha Bank r1 f3: 320 rows, 112s
+alpha Bank r1 f5 k=10: 46s
+alpha Bank r1 f4 k=50: 93s
+alpha Bank r1 f5 k=25: 68s
+alpha Bank r1 f4 k=100: 116s
+DONE alpha Bank r1 f4: 320 rows, 116s
+DONE rrep Adult r0 f1: 160 rows, 82s
+alpha Bank r1 f5 k=50: 91s
+DONE rrep Adult r0 f2: 160 rows, 81s
+alpha Bank r1 f5 k=100: 112s
+DONE alpha Bank r1 f5: 320 rows, 112s
+DONE rrep Adult r0 f3: 160 rows, 78s
+DONE rrep Adult r0 f4: 160 rows, 80s
+DONE rrep Adult r0 f5: 160 rows, 76s
+DONE rrep Adult r1 f1: 160 rows, 77s
+DONE rrep Adult r1 f2: 160 rows, 77s
+DONE rrep Adult r1 f3: 160 rows, 77s
+DONE rrep Adult r1 f4: 160 rows, 77s
+DONE rrep Adult r1 f5: 160 rows, 77s
+DONE rrep Bank r0 f1: 160 rows, 54s
+DONE rrep Bank r0 f2: 160 rows, 53s
+DONE rrep Bank r0 f3: 160 rows, 53s
+DONE rrep Bank r0 f4: 160 rows, 53s
+DONE rrep Bank r0 f5: 160 rows, 53s
+DONE rrep Bank r1 f1: 160 rows, 53s
+DONE rrep Bank r1 f2: 160 rows, 53s
+DONE rrep Bank r1 f3: 160 rows, 53s
+DONE rrep Bank r1 f4: 160 rows, 52s
+DONE rrep Bank r1 f5: 160 rows, 46s

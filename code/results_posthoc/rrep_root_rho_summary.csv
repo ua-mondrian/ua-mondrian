@@ -1,0 +1,5 @@
+dataset,method,rho_min,rho_max,top3_variant,top3_proto
+Adult,UA-Rrep-equal,0.6833333333333333,0.6833333333333333,"['native-country|marital-status|race', 'native-country|marital-status|relationship']","['hours-per-week|native-country|race', 'hours-per-week|native-country|relationship']"
+Adult,UA-Rrep-swap,-0.03333333333333333,0.03333333333333333,['marital-status|native-country|education'],"['hours-per-week|native-country|race', 'hours-per-week|native-country|relationship']"
+Bank,UA-Rrep-equal,0.7857142857142859,0.9642857142857145,['default|age|job'],"['default|job|age', 'default|job|housing', 'default|job|loan']"
+Bank,UA-Rrep-swap,-0.28571428571428575,0.28571428571428575,"['age|education|default', 'age|education|job']","['default|job|age', 'default|job|housing', 'default|job|loan']"

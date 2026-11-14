@@ -1,0 +1,997 @@
+{
+  "config": {
+    "k": 10,
+    "ell": 2,
+    "classifier": "RF",
+    "repeat": 0,
+    "fold": 1,
+    "alpha": 0.5,
+    "beta": 0.5
+  },
+  "Adult": {
+    "dataset": "Adult",
+    "repeat": 0,
+    "fold": 1,
+    "n_train": 36177,
+    "n_test": 9045,
+    "methods": {
+      "B2": {
+        "row_base": {
+          "dataset": "Adult",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "B2",
+          "classifier": "RF"
+        },
+        "leaves": 2224,
+        "feasible": true,
+        "tree_s": 1.2297015830408782,
+        "ml": {
+          "precision[<=50K]": 0.8757030371203599,
+          "recall[<=50K]": 0.9154784653829193,
+          "f1[<=50K]": 0.8951491196550485,
+          "support[<=50K]": 6803,
+          "precision[>50K]": 0.702534919813761,
+          "recall[>50K]": 0.6057091882247992,
+          "f1[>50K]": 0.6505389221556886,
+          "support[>50K]": 2242,
+          "macro_f1": 0.7728440209053686,
+          "accuracy": 0.8386954118297402,
+          "roc_auc": 0.8827033660308599,
+          "pr_auc": 0.7393587727787337,
+          "auc_note": "",
+          "runtime_s": 5.688715458847582
+        },
+        "privacy": {
+          "M": 2224,
+          "m": 9,
+          "ncp": 0.27782427334853765,
+          "dm": 753777.0,
+          "dm_w": 309.6164478271244,
+          "c_avg": 1.626663669064748,
+          "min_ec": 10,
+          "max_ec": 92
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36177,
+            "n_t_cov": 36177,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.026529084887125597,
+            "overall_linkage_risk": 0.026529084887125597,
+            "sai_gain": 0.11048002158952473,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.33524062249495534,
+            "mean_group_size": 64.06520717582995,
+            "chosen_candidates_hash": 604345986
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-B2-Mondrian-v1.0",
+        "d_public_size": 36177,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0,
+        "runtime_s": 14.881446165964007
+      },
+      "B4": {
+        "row_base": {
+          "dataset": "Adult",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "B4",
+          "classifier": "RF"
+        },
+        "leaves": 2121,
+        "feasible": true,
+        "tree_s": 2.7608061670325696,
+        "ml": {
+          "precision[<=50K]": 0.8769382576825486,
+          "recall[<=50K]": 0.9144495075701896,
+          "f1[<=50K]": 0.895301144131827,
+          "support[<=50K]": 6803,
+          "precision[>50K]": 0.7016914402870323,
+          "recall[>50K]": 0.6106155218554862,
+          "f1[>50K]": 0.6529930837109468,
+          "support[>50K]": 2242,
+          "macro_f1": 0.7741471139213869,
+          "accuracy": 0.8391376451077943,
+          "roc_auc": 0.8836326669125745,
+          "pr_auc": 0.7428722201670036,
+          "auc_note": "",
+          "runtime_s": 1.1583447500597686
+        },
+        "privacy": {
+          "M": 2121,
+          "m": 9,
+          "ncp": 0.3891447668858192,
+          "dm": 814379.0,
+          "dm_w": 342.38439941961224,
+          "c_avg": 1.7056577086280058,
+          "min_ec": 10,
+          "max_ec": 103
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36177,
+            "n_t_cov": 36177,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.0288726023406381,
+            "overall_linkage_risk": 0.0288726023406381,
+            "sai_gain": 0.11111697701392602,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3298504574729801,
+            "mean_group_size": 57.06719739060729,
+            "chosen_candidates_hash": 249336730
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-B4-InfoGainMondrian-v1.0",
+        "d_public_size": 36177,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0622698109081752,
+        "runtime_s": 11.715992833022028
+      },
+      "B4m": {
+        "row_base": {
+          "dataset": "Adult",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "B4m",
+          "classifier": "RF"
+        },
+        "leaves": 2121,
+        "feasible": true,
+        "tree_s": 1.156948707997799,
+        "ml": {
+          "precision[<=50K]": 0.8769382576825486,
+          "recall[<=50K]": 0.9144495075701896,
+          "f1[<=50K]": 0.895301144131827,
+          "support[<=50K]": 6803,
+          "precision[>50K]": 0.7016914402870323,
+          "recall[>50K]": 0.6106155218554862,
+          "f1[>50K]": 0.6529930837109468,
+          "support[>50K]": 2242,
+          "macro_f1": 0.7741471139213869,
+          "accuracy": 0.8391376451077943,
+          "roc_auc": 0.8836326669125745,
+          "pr_auc": 0.7428722201670036,
+          "auc_note": "",
+          "runtime_s": 0.8334571670275182
+        },
+        "privacy": {
+          "M": 2121,
+          "m": 9,
+          "ncp": 0.3891447668858192,
+          "dm": 814379.0,
+          "dm_w": 342.38439941961224,
+          "c_avg": 1.7056577086280058,
+          "min_ec": 10,
+          "max_ec": 103
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36177,
+            "n_t_cov": 36177,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.0288726023406381,
+            "overall_linkage_risk": 0.0288726023406381,
+            "sai_gain": 0.11111697701392602,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3298504574729801,
+            "mean_group_size": 57.06719739060729,
+            "chosen_candidates_hash": 4163140915
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-B4m-MatchedIG-UAframework-v1.0",
+        "d_public_size": 36177,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0622698109081752,
+        "runtime_s": 9.741095666075125
+      },
+      "A1": {
+        "row_base": {
+          "dataset": "Adult",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "A1",
+          "classifier": "RF"
+        },
+        "leaves": 2121,
+        "feasible": true,
+        "tree_s": 1.1737625831738114,
+        "ml": {
+          "precision[<=50K]": 0.8769382576825486,
+          "recall[<=50K]": 0.9144495075701896,
+          "f1[<=50K]": 0.895301144131827,
+          "support[<=50K]": 6803,
+          "precision[>50K]": 0.7016914402870323,
+          "recall[>50K]": 0.6106155218554862,
+          "f1[>50K]": 0.6529930837109468,
+          "support[>50K]": 2242,
+          "macro_f1": 0.7741471139213869,
+          "accuracy": 0.8391376451077943,
+          "roc_auc": 0.8836326669125745,
+          "pr_auc": 0.7428722201670036,
+          "auc_note": "",
+          "runtime_s": 1.1538478338625282
+        },
+        "privacy": {
+          "M": 2121,
+          "m": 9,
+          "ncp": 0.3891447668858192,
+          "dm": 814379.0,
+          "dm_w": 342.38439941961224,
+          "c_avg": 1.7056577086280058,
+          "min_ec": 10,
+          "max_ec": 103
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36177,
+            "n_t_cov": 36177,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.0288726023406381,
+            "overall_linkage_risk": 0.0288726023406381,
+            "sai_gain": 0.11111697701392602,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3298504574729801,
+            "mean_group_size": 57.06719739060729,
+            "chosen_candidates_hash": 4206428820
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-A1-UtilityOnly-v1.0",
+        "d_public_size": 36177,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0622698109081752,
+        "runtime_s": 10.14221854112111
+      },
+      "A2": {
+        "row_base": {
+          "dataset": "Adult",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "A2",
+          "classifier": "RF"
+        },
+        "leaves": 2265,
+        "feasible": true,
+        "tree_s": 1.4591007088311017,
+        "ml": {
+          "precision[<=50K]": 0.8733361356312176,
+          "recall[<=50K]": 0.9162134352491548,
+          "f1[<=50K]": 0.8942611190817791,
+          "support[<=50K]": 6803,
+          "precision[>50K]": 0.7012578616352201,
+          "recall[>50K]": 0.5967885816235504,
+          "f1[>50K]": 0.6448192771084338,
+          "support[>50K]": 2242,
+          "macro_f1": 0.7695401980951064,
+          "accuracy": 0.837037037037037,
+          "roc_auc": 0.8779127196730517,
+          "pr_auc": 0.7396572253743313,
+          "auc_note": "",
+          "runtime_s": 0.9902668339200318
+        },
+        "privacy": {
+          "M": 2265,
+          "m": 9,
+          "ncp": 0.29245579149000783,
+          "dm": 727979.0,
+          "dm_w": 257.4419756128116,
+          "c_avg": 1.5972185430463575,
+          "min_ec": 10,
+          "max_ec": 90
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36177,
+            "n_t_cov": 36177,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.029088274092479972,
+            "overall_linkage_risk": 0.029088274092479972,
+            "sai_gain": 0.09698010317515657,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.32971224811344224,
+            "mean_group_size": 50.406390800785026,
+            "chosen_candidates_hash": 2195293606
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-A2-VulnerabilityOnly-v1.0",
+        "d_public_size": 36177,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0,
+        "runtime_s": 10.605099041946232
+      },
+      "UA-Local": {
+        "row_base": {
+          "dataset": "Adult",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "UA-Local",
+          "classifier": "RF"
+        },
+        "leaves": 2228,
+        "feasible": true,
+        "tree_s": 1.4822931659873575,
+        "ml": {
+          "precision[<=50K]": 0.8705076213117047,
+          "recall[<=50K]": 0.915037483463178,
+          "f1[<=50K]": 0.8922172853662033,
+          "support[<=50K]": 6803,
+          "precision[>50K]": 0.6948257655755016,
+          "recall[>50K]": 0.5869759143621767,
+          "f1[>50K]": 0.6363636363636364,
+          "support[>50K]": 2242,
+          "macro_f1": 0.7642904608649198,
+          "accuracy": 0.8337202874516307,
+          "roc_auc": 0.8734388446719535,
+          "pr_auc": 0.7267149366508578,
+          "auc_note": "",
+          "runtime_s": 0.9444577919784933
+        },
+        "privacy": {
+          "M": 2228,
+          "m": 9,
+          "ncp": 0.3435590128976561,
+          "dm": 751297.0,
+          "dm_w": 272.89594177613753,
+          "c_avg": 1.6237432675044883,
+          "min_ec": 10,
+          "max_ec": 96
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36177,
+            "n_t_cov": 36177,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.02500966315194791,
+            "overall_linkage_risk": 0.02500966315194791,
+            "sai_gain": 0.08091085346355514,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3090084860546756,
+            "mean_group_size": 60.859330513862396,
+            "chosen_candidates_hash": 1188914962
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-UA-Local-v1.0",
+        "d_public_size": 36177,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0,
+        "runtime_s": 10.450495874974877
+      },
+      "Raw": {
+        "row_base": {
+          "dataset": "Adult",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": "NA",
+          "method": "Raw",
+          "classifier": "RF"
+        },
+        "ml": {
+          "precision[<=50K]": 0.8799772468714449,
+          "recall[<=50K]": 0.9095987064530354,
+          "f1[<=50K]": 0.8945428261655223,
+          "support[<=50K]": 6803,
+          "precision[>50K]": 0.6944858420268256,
+          "recall[>50K]": 0.623550401427297,
+          "f1[>50K]": 0.6571092831962397,
+          "support[>50K]": 2242,
+          "macro_f1": 0.7758260546808811,
+          "accuracy": 0.8386954118297402,
+          "roc_auc": 0.8851558116447287,
+          "pr_auc": 0.7387269682802987,
+          "auc_note": ""
+        },
+        "runtime_s": 13.195379542186856,
+        "journal_id": "J-Raw-v1.0"
+      },
+      "B1": {
+        "row_base": {
+          "dataset": "Adult",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": "NA",
+          "method": "B1",
+          "classifier": "RF"
+        },
+        "ml": {
+          "precision[<=50K]": 0.7521282476506357,
+          "recall[<=50K]": 1.0,
+          "f1[<=50K]": 0.8585310449268047,
+          "support[<=50K]": 6803,
+          "precision[>50K]": 0.0,
+          "recall[>50K]": 0.0,
+          "f1[>50K]": 0.0,
+          "support[>50K]": 2242,
+          "macro_f1": 0.4292655224634023,
+          "accuracy": 0.7521282476506357,
+          "roc_auc": 0.5,
+          "pr_auc": 0.2478717523493643,
+          "auc_note": ""
+        },
+        "runtime_s": 0.901263415813446,
+        "journal_id": "J-ZeroRule-v1.0"
+      }
+    },
+    "det_journalist_r3": {
+      "J": [
+        "age",
+        "education",
+        "marital-status"
+      ],
+      "twice_identical": true,
+      "linkage_risk": 0.0002277223042438059,
+      "coverage": 0.6666420963402498
+    },
+    "wall_s": 128.27354520792142,
+    "dropped_missing": 3620
+  },
+  "Bank": {
+    "dataset": "Bank",
+    "repeat": 0,
+    "fold": 1,
+    "n_train": 36168,
+    "n_test": 9043,
+    "methods": {
+      "B2": {
+        "row_base": {
+          "dataset": "Bank",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "B2",
+          "classifier": "RF"
+        },
+        "leaves": 374,
+        "feasible": true,
+        "tree_s": 0.3787344170268625,
+        "ml": {
+          "precision[no]": 0.9281674888701721,
+          "recall[no]": 0.9660613650594866,
+          "f1[no]": 0.9467353951890034,
+          "support[no]": 7985,
+          "precision[yes]": 0.6297814207650273,
+          "recall[yes]": 0.43572778827977315,
+          "f1[yes]": 0.5150837988826815,
+          "support[yes]": 1058,
+          "macro_f1": 0.7309095970358425,
+          "accuracy": 0.9040141545947141,
+          "roc_auc": 0.9205196889725892,
+          "pr_auc": 0.5915586601688774,
+          "auc_note": "",
+          "runtime_s": 1.9065485838800669
+        },
+        "privacy": {
+          "M": 374,
+          "m": 7,
+          "ncp": 0.4781309217902036,
+          "dm": 8895134.0,
+          "dm_w": 28224.469277516917,
+          "c_avg": 9.670588235294117,
+          "min_ec": 10,
+          "max_ec": 489
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36168,
+            "n_t_cov": 36168,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.006296088852075005,
+            "overall_linkage_risk": 0.006296088852075005,
+            "sai_gain": 0.025186354321981855,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3067905330679053,
+            "mean_group_size": 457.73186241981864,
+            "chosen_candidates_hash": 1291010374
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-B2-Mondrian-v1.0",
+        "d_public_size": 36168,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0,
+        "runtime_s": 12.679009000072256
+      },
+      "B4": {
+        "row_base": {
+          "dataset": "Bank",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "B4",
+          "classifier": "RF"
+        },
+        "leaves": 359,
+        "feasible": true,
+        "tree_s": 0.4744458750355989,
+        "ml": {
+          "precision[no]": 0.9276023532236763,
+          "recall[no]": 0.9675641828428303,
+          "f1[no]": 0.9471619467941645,
+          "support[no]": 7985,
+          "precision[yes]": 0.6372549019607843,
+          "recall[yes]": 0.43005671077504726,
+          "f1[yes]": 0.5135440180586908,
+          "support[yes]": 1058,
+          "macro_f1": 0.7303529824264277,
+          "accuracy": 0.9046776512219397,
+          "roc_auc": 0.9208446129498481,
+          "pr_auc": 0.5897266585856993,
+          "auc_note": "",
+          "runtime_s": 4.391674707876518
+        },
+        "privacy": {
+          "M": 359,
+          "m": 7,
+          "ncp": 0.5232341607192382,
+          "dm": 8924740.0,
+          "dm_w": 27000.42870201061,
+          "c_avg": 10.074651810584959,
+          "min_ec": 10,
+          "max_ec": 489
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36168,
+            "n_t_cov": 36168,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.005483944976557385,
+            "overall_linkage_risk": 0.005483944976557385,
+            "sai_gain": 0.024103979173896013,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3070946693209467,
+            "mean_group_size": 476.9572826808228,
+            "chosen_candidates_hash": 1456181159
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-B4-InfoGainMondrian-v1.0",
+        "d_public_size": 36168,
+        "min_ec": 10,
+        "min_h_b_sa": 1.103307408607834,
+        "runtime_s": 20.47557866689749
+      },
+      "B4m": {
+        "row_base": {
+          "dataset": "Bank",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "B4m",
+          "classifier": "RF"
+        },
+        "leaves": 359,
+        "feasible": true,
+        "tree_s": 0.4408203340135515,
+        "ml": {
+          "precision[no]": 0.9276023532236763,
+          "recall[no]": 0.9675641828428303,
+          "f1[no]": 0.9471619467941645,
+          "support[no]": 7985,
+          "precision[yes]": 0.6372549019607843,
+          "recall[yes]": 0.43005671077504726,
+          "f1[yes]": 0.5135440180586908,
+          "support[yes]": 1058,
+          "macro_f1": 0.7303529824264277,
+          "accuracy": 0.9046776512219397,
+          "roc_auc": 0.9208446129498481,
+          "pr_auc": 0.5897266585856993,
+          "auc_note": "",
+          "runtime_s": 3.51833733310923
+        },
+        "privacy": {
+          "M": 359,
+          "m": 7,
+          "ncp": 0.5232341607192382,
+          "dm": 8924740.0,
+          "dm_w": 27000.42870201061,
+          "c_avg": 10.074651810584959,
+          "min_ec": 10,
+          "max_ec": 489
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36168,
+            "n_t_cov": 36168,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.005483944976557385,
+            "overall_linkage_risk": 0.005483944976557385,
+            "sai_gain": 0.024103979173896013,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3070946693209467,
+            "mean_group_size": 476.9572826808228,
+            "chosen_candidates_hash": 638787719
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-B4m-MatchedIG-UAframework-v1.0",
+        "d_public_size": 36168,
+        "min_ec": 10,
+        "min_h_b_sa": 1.103307408607834,
+        "runtime_s": 15.235014374833554
+      },
+      "A1": {
+        "row_base": {
+          "dataset": "Bank",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "A1",
+          "classifier": "RF"
+        },
+        "leaves": 359,
+        "feasible": true,
+        "tree_s": 0.2950325410347432,
+        "ml": {
+          "precision[no]": 0.9276023532236763,
+          "recall[no]": 0.9675641828428303,
+          "f1[no]": 0.9471619467941645,
+          "support[no]": 7985,
+          "precision[yes]": 0.6372549019607843,
+          "recall[yes]": 0.43005671077504726,
+          "f1[yes]": 0.5135440180586908,
+          "support[yes]": 1058,
+          "macro_f1": 0.7303529824264277,
+          "accuracy": 0.9046776512219397,
+          "roc_auc": 0.9208446129498481,
+          "pr_auc": 0.5897266585856993,
+          "auc_note": "",
+          "runtime_s": 4.288092082832009
+        },
+        "privacy": {
+          "M": 359,
+          "m": 7,
+          "ncp": 0.5232341607192382,
+          "dm": 8924740.0,
+          "dm_w": 27000.42870201061,
+          "c_avg": 10.074651810584959,
+          "min_ec": 10,
+          "max_ec": 489
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36168,
+            "n_t_cov": 36168,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.005483944976557385,
+            "overall_linkage_risk": 0.005483944976557385,
+            "sai_gain": 0.024103979173896013,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3070946693209467,
+            "mean_group_size": 476.9572826808228,
+            "chosen_candidates_hash": 1168851923
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-A1-UtilityOnly-v1.0",
+        "d_public_size": 36168,
+        "min_ec": 10,
+        "min_h_b_sa": 1.103307408607834,
+        "runtime_s": 15.869742833077908
+      },
+      "A2": {
+        "row_base": {
+          "dataset": "Bank",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "A2",
+          "classifier": "RF"
+        },
+        "leaves": 374,
+        "feasible": true,
+        "tree_s": 0.31962837488390505,
+        "ml": {
+          "precision[no]": 0.9290703275529865,
+          "recall[no]": 0.9661865998747652,
+          "f1[no]": 0.947265025477316,
+          "support[no]": 7985,
+          "precision[yes]": 0.6346414073071719,
+          "recall[yes]": 0.44328922495274103,
+          "f1[yes]": 0.5219810795770728,
+          "support[yes]": 1058,
+          "macro_f1": 0.7346230525271944,
+          "accuracy": 0.9050093995355524,
+          "roc_auc": 0.9200250824738729,
+          "pr_auc": 0.5910194226772469,
+          "auc_note": "",
+          "runtime_s": 1.8987073749303818
+        },
+        "privacy": {
+          "M": 374,
+          "m": 7,
+          "ncp": 0.4722434428316782,
+          "dm": 8894560.0,
+          "dm_w": 28577.18645709769,
+          "c_avg": 9.670588235294117,
+          "min_ec": 10,
+          "max_ec": 489
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36168,
+            "n_t_cov": 36168,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.007037023640128693,
+            "overall_linkage_risk": 0.007037023640128693,
+            "sai_gain": 0.02633848474791116,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.3082006193320062,
+            "mean_group_size": 441.7910307454103,
+            "chosen_candidates_hash": 1776913725
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-A2-VulnerabilityOnly-v1.0",
+        "d_public_size": 36168,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0230370655328809,
+        "runtime_s": 12.120544333942235
+      },
+      "UA-Local": {
+        "row_base": {
+          "dataset": "Bank",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": 10,
+          "method": "UA-Local",
+          "classifier": "RF"
+        },
+        "leaves": 360,
+        "feasible": true,
+        "tree_s": 0.2994146670680493,
+        "ml": {
+          "precision[no]": 0.9275762671150612,
+          "recall[no]": 0.9671884783969944,
+          "f1[no]": 0.9469683035987984,
+          "support[no]": 7985,
+          "precision[yes]": 0.6345885634588564,
+          "recall[yes]": 0.43005671077504726,
+          "f1[yes]": 0.5126760563380282,
+          "support[yes]": 1058,
+          "macro_f1": 0.7298221799684133,
+          "accuracy": 0.9043459029083268,
+          "roc_auc": 0.9180088966433992,
+          "pr_auc": 0.5923034382808054,
+          "auc_note": "",
+          "runtime_s": 3.586882291128859
+        },
+        "privacy": {
+          "M": 360,
+          "m": 7,
+          "ncp": 0.5122298666941524,
+          "dm": 8915988.0,
+          "dm_w": 27213.500007704853,
+          "c_avg": 10.046666666666667,
+          "min_ec": 10,
+          "max_ec": 489
+        },
+        "attacks": {
+          "prosecutor": {
+            "n_t_all": 36168,
+            "n_t_cov": 36168,
+            "coverage": 1.0,
+            "candidate_rate": 1.0,
+            "unique_match_rate": 0.0,
+            "linkage_risk": 0.006152458215676954,
+            "overall_linkage_risk": 0.006152458215676954,
+            "sai_gain": 0.025503178915886732,
+            "sai_coverage": 1.0,
+            "homogeneous_rate": 0.0,
+            "majority_accuracy": 0.30759234682592346,
+            "mean_group_size": 448.99856226498565,
+            "chosen_candidates_hash": 2417736688
+          }
+        },
+        "postvalidation": {
+          "pass": true,
+          "problems": []
+        },
+        "journal_id": "J-UA-Local-v1.0",
+        "d_public_size": 36168,
+        "min_ec": 10,
+        "min_h_b_sa": 1.0408520829727552,
+        "runtime_s": 15.820816792082042
+      },
+      "Raw": {
+        "row_base": {
+          "dataset": "Bank",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": "NA",
+          "method": "Raw",
+          "classifier": "RF"
+        },
+        "ml": {
+          "precision[no]": 0.9247914183551847,
+          "recall[no]": 0.9716969317470256,
+          "f1[no]": 0.9476641221374046,
+          "support[no]": 7985,
+          "precision[yes]": 0.6539050535987749,
+          "recall[yes]": 0.40359168241965976,
+          "f1[yes]": 0.49912331969608414,
+          "support[yes]": 1058,
+          "macro_f1": 0.7233937209167444,
+          "accuracy": 0.9052305650779608,
+          "roc_auc": 0.9272234802258014,
+          "pr_auc": 0.6068510138716958,
+          "auc_note": ""
+        },
+        "runtime_s": 13.747793499846011,
+        "journal_id": "J-Raw-v1.0"
+      },
+      "B1": {
+        "row_base": {
+          "dataset": "Bank",
+          "mode": "SA_NEQ_Y",
+          "repeat": 0,
+          "fold": 1,
+          "k": "NA",
+          "method": "B1",
+          "classifier": "RF"
+        },
+        "ml": {
+          "precision[no]": 0.8830034280659074,
+          "recall[no]": 1.0,
+          "f1[no]": 0.9378670425182053,
+          "support[no]": 7985,
+          "precision[yes]": 0.0,
+          "recall[yes]": 0.0,
+          "f1[yes]": 0.0,
+          "support[yes]": 1058,
+          "macro_f1": 0.46893352125910265,
+          "accuracy": 0.8830034280659074,
+          "roc_auc": 0.5,
+          "pr_auc": 0.11699657193409267,
+          "auc_note": ""
+        },
+        "runtime_s": 0.7456776250619441,
+        "journal_id": "J-ZeroRule-v1.0"
+      }
+    },
+    "det_journalist_r3": {
+      "J": [
+        "age",
+        "marital",
+        "education"
+      ],
+      "twice_identical": true,
+      "linkage_risk": 0.0018660734895904287,
+      "coverage": 0.6666420909057397
+    },
+    "wall_s": 113.3522907497827,
+    "dropped_missing": 0
+  },
+  "rerun_reproducibility": {
+    "privacy_identical": true,
+    "ml_identical": false
+  },
+  "root_screen_Adult_SA_EQ_Y": {
+    "n_train": 9045,
+    "h_b_sa": 0.8078874730165929,
+    "h_threshold": 1.0,
+    "size_ok": true,
+    "entropy_ok": false,
+    "pass": false,
+    "reason": "H(B_SA)=0.8079 < log2(l)=1.0000"
+  },
+  "root_screen_CMC_A": {
+    "n_train": 1177,
+    "h_b_sa": 0.3865401966812831,
+    "h_threshold": 1.0,
+    "size_ok": true,
+    "entropy_ok": false,
+    "pass": false,
+    "reason": "H(B_SA)=0.3865 < log2(l)=1.0000"
+  },
+  "root_screen_CMC_B": {
+    "n_train": 1177,
+    "h_b_sa": 0.6275185624731953,
+    "h_threshold": 1.0,
+    "size_ok": true,
+    "entropy_ok": false,
+    "pass": false,
+    "reason": "H(B_SA)=0.6275 < log2(l)=1.0000"
+  },
+  "split_seeds_differ": true,
+  "manual_dm_w": {
+    "dm": 13.0,
+    "dm_w": 6.499999999999999,
+    "z": 0.6000000000000001,
+    "dm_w_zero": 6.5
+  },
+  "total_wall_s": 348.8043895000592,
+  "peak_mem_mb": 425536.0
+}

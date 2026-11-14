@@ -1,0 +1,11 @@
+{
+  "expected_cells": 140,
+  "complete_cells": 140,
+  "missing": [],
+  "raw_b1_splits": {
+    "Adult/B1": 10,
+    "Adult/Raw": 10,
+    "Bank/B1": 10,
+    "Bank/Raw": 10
+  }
+}
